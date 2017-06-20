@@ -26,15 +26,8 @@ $on-palm:             600px;
 $on-laptop:           800px;
 
 @import
-  // Components & base structures
-  "components/skeleton",
-  "components/syntax-highlighting",
-  "components/navbar",
-  "components/footer",
 
-  // Pages
-  "pages/index",
-  "pages/blog",
-  "pages/category",
-  "pages/post"
+  "skeleton",
+  "normalize",
+  "index"
 ;
