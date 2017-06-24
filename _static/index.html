@@ -4,38 +4,38 @@ permalink: /
 ---
 
 <div class="index-wrapper">
-  <div class="container">
+  <div class="panels-container">
+    {% for category_slug in site.data.categories %}
+      {% assign category = category_slug[0] %}
+      {% assign column = category_slug[1] %}
+        <div class="row {{ category }} ">
+          <div class="row-header">{{ column["name"] }}</div>
 
-    <div class="panels-container">
-      {% for category_slug in site.data.categories %}
+          {% assign questions = column["questions"] %}
+          {% for question_set in questions %}
+            {% assign set = question_set[1] %}
+            {% assign difficulty = question_set[0] %}
+            {% assign question = set["question"] %}
+            {% assign answer = set["answer"] %}
+            {% assign double = set["double"] %}
 
-        <div class="row">
-          {% assign column = category_slug[1] %}
-
-          <div class="row-header">
-            {{ category_slug[0] }}
-          </div>
-
-          {% for question_slug in column %}
-            <div class="card panel">
+            <div class="card panel difficulty-{{ difficulty }} {% if double %}double{% endif %}">
               <div class="front">
-                {{ question_slug[0] }}
+                <span class="inner-text">{{ difficulty }}</span>
               </div>
+
               <div class="back">
-                {{ question_slug[1]["question"]}}
+                <div class="mobile-hidden">
+                  <span class="inner-text">{{ question }}</span>
+                </div>
 
                 <div class="desktop-hidden">
-                  {{ question_slug[1]["answer"] }}
+                  <span class="inner-text">{{ answer }}</span>
                 </div>
               </div>
             </div>
-
           {% endfor %}
         </div>
-      {% endfor %}
-
-    </div>
-
-
+    {% endfor %}
   </div>
 </div>

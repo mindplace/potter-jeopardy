@@ -2,7 +2,130 @@
  * Index page styles
  */
 
+ * {
+   box-sizing: border-box;
+   text-align: center;
+   font-size: 12px;
+ }
+
  .index-section {
    border-bottom: 1px solid #eee;
    margin-bottom: 40px;
  }
+
+.panels-container {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  margin: auto;
+
+  @media screen and (max-width: $on-palm) {
+    flex-direction: column;
+  }
+
+  .row {
+    display: flex;
+    flex-direction: column;
+
+    @media screen and (min-width: $on-palm) {
+      width: 20%;
+
+      &:not(:last-child) {
+        margin-right: 10px;
+      }
+    }
+
+    color: white;
+
+    .row-header {
+      font-size: 18px;
+      color: black;
+    }
+  }
+
+  .inner-text {
+    height: 100%;
+    margin: auto;
+    display: block;
+  }
+
+  .card {
+    margin-top: 10px;
+    height: 110px;
+  }
+
+  .front, .back {
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .front .inner-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-weight: 600;
+    font-size: 45px;
+  }
+}
+
+.desktop-hidden {
+  > * { font-size: 17px; }
+
+  @media screen and (min-width: $on-palm + 1) {
+    display: none;
+  }
+}
+
+.mobile-hidden {
+  @media screen and (max-width: $on-palm) {
+    display: none;
+  }
+}
+
+// Colors
+.quotes {
+  .difficulty-100 { .front, .back { background-color: #FFAAAA; } }
+  .difficulty-200 { .front, .back { background-color: #D46A6A; } }
+  .difficulty-300 { .front, .back { background-color: #AA3939; } }
+  .difficulty-400 { .front, .back { background-color: #801515; } }
+  .difficulty-500 { .front, .back { background-color: #550000; } }
+}
+
+.episode {
+  .difficulty-100 { .front, .back { background-color: #9974AA; } }
+  .difficulty-200 { .front, .back { background-color: #794A8D; } }
+  .difficulty-300 { .front, .back { background-color: #5B2971; } }
+  .difficulty-400 { .front, .back { background-color: #401155; } }
+  .difficulty-500 { .front, .back { background-color: #280339; } }
+}
+
+.characters {
+  .difficulty-100 { .front, .back { background-color: #3F7EBA; } }
+  .difficulty-200 { .front, .back { background-color: #1A69B5; } }
+  .difficulty-300 { .front, .back { background-color: #095298; } }
+  .difficulty-400 { .front, .back { background-color: #06427B; } }
+  .difficulty-500 { .front, .back { background-color: #04325F; } }
+}
+
+.props {
+  .difficulty-100 { .front, .back { background-color: #16B958; } }
+  .difficulty-200 { .front, .back { background-color: #00A141; } }
+  .difficulty-300 { .front, .back { background-color: #008536; } }
+  .difficulty-400 { .front, .back { background-color: #006B2B; } }
+  .difficulty-500 { .front, .back { background-color: #004A1E; } }
+}
+
+.world_building {
+  .difficulty-100 { .front, .back { background-color: #D7C64A; } }
+  .difficulty-200 { .front, .back { background-color: #BAA924; } }
+  .difficulty-300 { .front, .back { background-color: #9A8A0D; } }
+  .difficulty-400 { .front, .back { background-color: #766800; } }
+  .difficulty-500 { .front, .back { background-color: #4C4300; } }
+}
+
+.double .back { border: 5px solid red; }

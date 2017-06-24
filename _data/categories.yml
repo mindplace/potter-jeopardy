@@ -1,10 +1,117 @@
-# When creating or altering categories, remember to duplicate your changes to the category/ folder. Each category needs to have its own [slug].md page, specifying its layout, tag, and permalink.
-
 quotes:
-  100:
-    question: "'My food is problematic.' Who said this, and what were they eating?"
-    answer: "River, eating a dangling ice dessert called an 'ice planet'."
+  name: "Quotes"
+  questions:
+      100:
+        question: "This person said 'My food is problematic.' as they were eating something."
+        answer: "What is River, eating a dangling ice dessert called an 'ice planet'."
 
-  200:
-    question: "'I'll be in my bunk.' Who said this, and what were the circumstances?"
-    answer: "Jayne, after watching Inara's female client come onboard."
+      200:
+        question: "This person said, 'On the night of their betrothal, the wife shall open to the man as the furrow to the plow and he shall work in her . . . til she bring him to his fall'"
+        answer: "What is Saffron, attempting to seduce Mal."
+        double: true
+
+      300:
+        question: "This person said 'I'll be in my bunk.' when something had happened."
+        answer: "Jayne, after watching Inara's female client come onboard."
+
+      400:
+        question: "This person said 'Whatever happens, remember I love you.' under specific circumstances."
+        answer: "Mal, to Zoe, when they're pretending to be married. "
+
+      500:
+        question: "This person sad 'Oh, I think you might wanna reconsider that last part. See, I married me a powerful ugly creature.'"
+        answer: "Jayne, talking about Mal dressed as a woman on 'Our Mrs Reynolds'"
+
+episode:
+  name: "Guess the Episode"
+  questions:
+    100:
+      question: "On this episode, Mal says, 'Someone ever tries to kill you, you try to kill 'em right back!'"
+      answer: "What is 'Our Mrs Reynolds'"
+
+    200:
+      question: "On this episode, Wash says, 'Curse your sudden but inevitable betrayal!'"
+      answer: "What is 'Serenity'"
+
+    300:
+      question: "On this episode, Mal says, 'And I'm thinking you weren't burdened with an overabundance of schooling.'"
+      answer: "What is 'The Train Job'"
+
+    400:
+      question: "On this episode, Simon says, 'No matter what you do or say or plot, [ . . . ] I will never, ever harm you. You're on this table, you're safe.'"
+      answer: "What is 'Trash'"
+
+    500:
+      question: "On this episode, Jayne says, 'You know what the chain of command is? It's the chain I go get and beat you with until you understand who's in ruttin charge here.'"
+      answer: "What is 'The Train Job'"
+
+characters:
+  name: "Characters"
+  questions:
+    100:
+      question: "These 9 people fly together on 'Serenity'."
+      answer: "Mal, Jayne, Wash, Inara, Zoe, Kaylee, Simon, River, Book"
+
+    200:
+      question: "This person hired Inara on multiple occasions and offered her a more permanent arrangement."
+      answer: "Who is Atherton Wing"
+
+    300:
+      question: "This bounty hunter was hunting River and Simon in 'Objects in Space' episode."
+      answer: "Who is Jubal Early"
+      double: true
+
+    400:
+      question: "This war buddy of Zoe and Mal's had them ship his body in 'The Message' episode."
+      answer: "Who is Tracy Smith"
+
+    500:
+      question: "This 'reclusive techno-geek' lives on a moon with his robot wife."
+      answer: "Who is Mr Universe"
+
+props:
+  name: "Props and Things"
+  questions:
+    100:
+      question: "This is the class of the ship Serenity."
+      answer: "What is Firefly class."
+
+    200:
+      question: "This is the item River is holding when she says, 'No power in the verse can stop me.'"
+      answer: "A gun."
+
+    300:
+      question: "This is the item Jayne offers Mal in exchange for Saffron."
+      answer: "What is Vera, Jayne's 'most favorite gun'."
+
+    400:
+      question: "This is the drink people drank in Jaynestown."
+      answer: "What is Mudders Milk."
+
+    500:
+      question: "This is what Jayne's mother sends him to keep him warm in his travels."
+      answer: "What is the orange flappy hat."
+
+world_building:
+  name: "World building"
+  questions:
+    100:
+      question: "This is the thing that they can't take from you."
+      answer: "What is the sky."
+
+    200:
+      question: "These were the 2 ruling powers on Earth-That-Was."
+      answer: "What is the United States and the People's Republic of China"
+
+    300:
+      question: "These were the 2 factions in the Unification War."
+      answer: "The Independent Faction / Browncoats and the Alliance."
+
+    400:
+      question: "Though prostitutes are not legal, sex work by these professionals is permitted."
+      answer: "What is Companions."
+      double: true
+
+    500:
+      question: "This is how a person becomes a Reaver (without going to the planet)."
+      answer: "What is being 'left alive and forced by Reavers to view the tortures they inflict on others'."
