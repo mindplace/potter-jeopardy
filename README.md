@@ -16,7 +16,7 @@ The daily doubles are bordered in red.
 To access answers, open the same [index page](http://estherleytush.com/firefly-jeopardy/) on your phone. On mobile view, the cards show their answers instead of their questions.
 
 #### Our Prizes
-1. gets the Firefly board game
-2. chooses episode
-3. Hero of Canton with their name in the song
-4. makes the after-game toast with one of our Firefly themed drinks
+1. Gets the Firefly board game
+2. Hero of Canton with their name in the song
+3. Chooses episode
+4. Makes the after-game toast with one of our Firefly themed drinks
