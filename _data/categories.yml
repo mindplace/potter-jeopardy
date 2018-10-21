@@ -1,5 +1,5 @@
 classes:
-  name: "Classes"
+  name: "Essential Education"
   questions:
       100:
         question: "Where would you look to find a bezoar, and what is it good for?"
@@ -27,7 +27,7 @@ classes:
         answer: "The cry of the mandrake is fatal to anyone who hears it."
 
 people:
-  name: "People"
+  name: "Magical Folk"
   questions:
     100:
       question: "Whose life did the Chamber of Secrets claim?"
@@ -82,7 +82,7 @@ hogwarts:
       answer: "Chinese Fireball, Hungarian Horntail, Common Welsh Green, Swedish Shortsnout"
 
 dumbledore:
-  name: "Dumbledore"
+  name: "Dumbledore's Thoughts"
   questions:
     100:
       question: "'It is our choices that show what we truly are, far more than our abilities.'"

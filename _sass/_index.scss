@@ -4,27 +4,30 @@
  * Index page styles
  */
 
- * {
-   box-sizing: border-box;
-   text-align: center;
-   font-size: 12px;
- }
+* {
+  box-sizing: border-box;
+  text-align: center;
+  font-size: 12px;
+}
 
 body {
   background-image: url("/potter-jeopardy/assets/images/hogwarts.jpg");
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
   font-family: 'Bad Script', cursive;
- }
+}
 
- .index-section {
-   border-bottom: 1px solid #eee;
-   margin-bottom: 40px;
- }
+.index-section {
+  border-bottom: 1px solid #eee;
+  margin-bottom: 40px;
+}
 
 .panels-container {
+  padding-top: 50px;
   display: flex;
   justify-content: space-between;
-  width: 90%;
-  margin: auto;
 
   @media screen and (max-width: $on-palm) {
     flex-direction: column;
@@ -56,6 +59,7 @@ body {
   .card {
     margin-top: 10px;
     height: 110px;
+    cursor: pointer;
   }
 
   .front {
@@ -64,6 +68,7 @@ body {
 
   .back {
     background: white;
+    width: 99% !important;
   }
 
   .front, .back {
@@ -83,6 +88,10 @@ body {
     font-weight: 600;
     font-size: 45px;
   }
+
+  .answer {
+    color: mediumseagreen;
+  }
 }
 
 .desktop-hidden {
@@ -98,3 +107,40 @@ body {
 }
 
 .double .back { border: 5px solid red; }
+
+.panels-container, .tally-container {
+  width: 90%;
+  margin: auto;
+}
+
+.red {
+  color: red;
+}
+
+.tally-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  color: white;
+
+  .house {
+    padding: 20px;
+    margin: 5px;
+    border: 3px solid transparent;
+    &:hover {
+      border: 3px solid blue;
+      border-radius: 5px;
+      cursor: pointer;
+      background: rgba(255, 255, 255, 0.1);
+    }
+  }
+
+  h1, h2 {
+    font-size: 18px;
+    letter-spacing: 3px;
+  }
+
+  h2 {
+    margin-bottom: 0;
+  }
+}
