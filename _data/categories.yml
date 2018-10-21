@@ -1,117 +1,137 @@
-quotes:
-  name: "Quotes"
+classes:
+  name: "Classes"
   questions:
       100:
-        question: "This person said 'My food is problematic.' as they were eating something."
-        answer: "What is River, eating a dangling ice dessert called an 'ice planet'."
+        question: "Where would you look to find a bezoar, and what is it good for?"
+        answer: "In the stomach of a goat, and it will save you from most poisons."
 
       200:
-        question: "This person said, 'On the night of their betrothal, the wife shall open to the man as the furrow to the plow and he shall work in her . . . til she bring him to his fall'"
-        answer: "What is Saffron, attempting to seduce Mal."
-        double: true
+        question: "What is the difference between monkshood and wolfsbane?"
+        answer: "They are the same plant, which also goes by the name of aconite."
 
       300:
-        question: "This person said 'I'll be in my bunk.' when something had happened."
-        answer: "Jayne, after watching Inara's female client come onboard."
+        question: "What would you get if you added powdered root of asphodel to an infusion of wormwood?"
+        answer: "Sleeping potion known as the Draught of Living Death"
+        double: true
 
       400:
-        question: "This person said 'Whatever happens, remember I love you.' under specific circumstances."
-        answer: "Mal, to Zoe, when they're pretending to be married. "
+        question: "How do you banish a boggart?"
+        answer: "Riddikulus! and laughter"
 
       500:
-        question: "This person sad 'Oh, I think you might wanna reconsider that last part. See, I married me a powerful ugly creature.'"
-        answer: "Jayne, talking about Mal dressed as a woman on 'Our Mrs Reynolds'"
+        question: "What special personal date do ghosts celebrate?"
+        answer: "Deathdays"
 
-episode:
-  name: "Guess the Episode"
+      600:
+        question: "Why are mandrakes dangerous?"
+        answer: "The cry of the mandrake is fatal to anyone who hears it."
+
+people:
+  name: "People"
   questions:
     100:
-      question: "On this episode, Mal says, 'Someone ever tries to kill you, you try to kill 'em right back!'"
-      answer: "What is 'Our Mrs Reynolds'"
+      question: "Whose life did the Chamber of Secrets claim?"
+      answer: "Moaning Myrtle"
 
     200:
-      question: "On this episode, Wash says, 'Curse your sudden but inevitable betrayal!'"
-      answer: "What is 'Serenity'"
+      question: "Name Harry, Ron, and Hermione's animals."
+      answer: "Hedwig, Scabbers, Crookshanks, Pigwidgeon"
 
     300:
-      question: "On this episode, Mal says, 'And I'm thinking you weren't burdened with an overabundance of schooling.'"
-      answer: "What is 'The Train Job'"
+      question: "According to his chocolate frog card, what is Dumbledore famous for?"
+      answer: "His defeat of the famous dark wizard Grindelwald, his discovery of the 12 uses of dragons' blood, and his alchemy work with his friend Nicholas Flamel."
 
     400:
-      question: "On this episode, Simon says, 'No matter what you do or say or plot, [ . . . ] I will never, ever harm you. You're on this table, you're safe.'"
-      answer: "What is 'Trash'"
+      question: "What were the three ways Dobby tired to save Harry's life in chamber?"
+      answer: "Destroying Aunt Petunia's pudding, closing the train platform barrier, setting the bludger on Harry"
 
     500:
-      question: "On this episode, Jayne says, 'You know what the chain of command is? It's the chain I go get and beat you with until you understand who's in ruttin charge here.'"
-      answer: "What is 'The Train Job'"
+      question: "What is Gilderoy Lockhart’s ideal birthday gift?"
+      answer: "Harmony between all magic and non-magic peoples"
 
-characters:
-  name: "Characters"
+    600:
+      question: "Name 3 examples of spells that rebounded on their casters."
+      answer: "Voldemort's Avada Kedavra, Lockhart's memory charm, Ron's slugs"
+
+hogwarts:
+  name: "Hogwarts, A History"
   questions:
     100:
-      question: "These 9 people fly together on 'Serenity'."
-      answer: "Mal, Jayne, Wash, Inara, Zoe, Kaylee, Simon, River, Book"
+      question: "What does the mirror of Erised show you?"
+      answer: "The deepest, most desperate desire of your heart."
 
     200:
-      question: "This person hired Inara on multiple occasions and offered her a more permanent arrangement."
-      answer: "Who is Atherton Wing"
+      question: "Name the 4 founders and their objects."
+      answer: "Helga Hufflepuff's cup, Rowena Ravenclaw's diadem, Godric Gryffindor's sword, Salazar Slytherin's locket."
 
     300:
-      question: "This bounty hunter was hunting River and Simon in 'Objects in Space' episode."
-      answer: "Who is Jubal Early"
+      question: "Who is Keeper of the Keys at Hogwarts?"
+      answer: "Hagrid"
       double: true
 
     400:
-      question: "This war buddy of Zoe and Mal's had them ship his body in 'The Message' episode."
-      answer: "Who is Tracy Smith"
+      question: "What are the 7 standard first-year classes?"
+      answer: "Transfiguration, Herbology, Potions, History of Magic, Defence Against the Dark Arts, Charms, Astronomy"
 
     500:
-      question: "This 'reclusive techno-geek' lives on a moon with his robot wife."
-      answer: "Who is Mr Universe"
+      question: "Who are the four writers of the Maurauder's Map?"
+      answer: "Messrs Mooney, Padfoot, Wormtail, Prongs"
 
-props:
-  name: "Props and Things"
+    600:
+      question: "Which 4 dragons were brought for the contestants of the Triwizard Tournament?"
+      answer: "Chinese Fireball, Hungarian Horntail, Common Welsh Green, Swedish Shortsnout"
+
+dumbledore:
+  name: "Dumbledore"
   questions:
     100:
-      question: "This is the class of the ship Serenity."
-      answer: "What is Firefly class."
+      question: "'It is our choices that show what we truly are, far more than our abilities.'"
+      answer: "2. Chamber of Secrets"
 
     200:
-      question: "This is the item River is holding when she says, 'No power in the verse can stop me.'"
-      answer: "A gun."
+      question: "'To the well-organized mind, death is but the next great adventure.'"
+      answer: "1. Sorcerer's Stone"
 
     300:
-      question: "This is the item Jayne offers Mal in exchange for Saffron."
-      answer: "What is Vera, Jayne's 'most favorite gun'."
+      question: "'Words are our most inexhaustible source of magic, capable of both inflicting injury, and remedying it.'"
+      answer: "7. Deathly Hallows"
 
     400:
-      question: "This is the drink people drank in Jaynestown."
-      answer: "What is Mudders Milk."
+      question: "'Happiness can be found, even in the darkest of times, if one only remembers to turn on the light.'"
+      answer: "3. Prizoner of Azkaban"
 
     500:
-      question: "This is what Jayne's mother sends him to keep him warm in his travels."
-      answer: "What is the orange flappy hat."
+      question: "'It matters not what someone is born, but what they grow to be.'"
+      answer: "4. Goblet of Fire"
 
-world_building:
-  name: "World building"
+    600:
+      question: "'I will only truly have left this school when none here are loyal to me.'"
+      answer: "2. Chamber of Secrets"
+
+magical_world:
+  name: "Magical World"
   questions:
     100:
-      question: "This is the thing that they can't take from you."
-      answer: "What is the sky."
+      question: "What 3 magical creatures have body parts used in wandmaking?"
+      answer: "Dragons, unicorns, and phoenixes"
 
     200:
-      question: "These were the 2 ruling powers on Earth-That-Was."
-      answer: "What is the United States and the People's Republic of China"
+      question: "Which creature is only visible after the viewer has seen death?"
+      answer: "Thestrals"
 
     300:
-      question: "These were the 2 factions in the Unification War."
-      answer: "The Independent Faction / Browncoats and the Alliance."
+      question:
+      answer:
 
     400:
-      question: "Though prostitutes are not legal, sex work by these professionals is permitted."
-      answer: "What is Companions."
+      question: "How many knuts to a sickle, and how many sickles to a galleon?"
+      answer: "29 knuts to a sickle; 17 sickles to a galleon"
       double: true
 
     500:
-      question: "This is how a person becomes a Reaver (without going to the planet)."
-      answer: "What is being 'left alive and forced by Reavers to view the tortures they inflict on others'."
+      question:
+      answer:
+
+    600:
+      question:
+      answer:

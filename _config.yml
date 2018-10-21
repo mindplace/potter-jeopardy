@@ -1,45 +1,21 @@
-#
-#  Config file
-#
-#  If you make changes to this file while your Jekyll server is running,
-#  You'll need to restart your server.
-# ---------------------------------------------------------------------
+permalink: pretty
+baseurl: ''
+url: ''
 
-# Permalinks
-permalink:        pretty
+title: Potter Jeopardy
 
-# Your site's full URL, e.g. "https://my-site.com" - leave this empty
-# until you have/own a domain and a CNAME file.
-# url:
-
-# Set to '' in case of hosting on `http://<your-github-name>.github.io`
-baseurl:          '/firefly-jeopardy'
-
-# Site settings
-title: Your Site Title Here
-
-description: > # this means to ignore newlines until "baseurl:"
-  Your site description here.
-
-author:
-  name:    'Awesome McAwesome'
-  twitter: your_twitter_username
-  github:  your_github_username
-
-  # This photo will be used in the about section
-  photo:   http://somewebsite.com/my_awesome_image.jpg
-
-  # Markdown enabled, can use multiple paragraphs (enabled by `|`)
-  about:          |
-    Your author description here.
-
-# Build settings
 markdown: kramdown
-
 kramdown:
   math_engine: mathjax
   math_engine_opts:
     preview: true
 
-# Adding static pages through `_static/` folder
-include: ['_static']
+include:
+  - _static
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
