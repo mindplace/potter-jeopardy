@@ -12,7 +12,6 @@ classes:
       300:
         question: "What would you get if you added powdered root of asphodel to an infusion of wormwood?"
         answer: "Sleeping potion known as the Draught of Living Death"
-        double: true
 
       400:
         question: "How do you banish a boggart?"
@@ -67,7 +66,6 @@ hogwarts:
     300:
       question: "Who is Keeper of the Keys at Hogwarts?"
       answer: "Hagrid"
-      double: true
 
     400:
       question: "What are the 7 standard first-year classes?"
@@ -120,18 +118,17 @@ magical_world:
       answer: "Thestrals"
 
     300:
-      question:
-      answer:
+      question: "How many goal posts are on a Quiddich pitch?"
+      answer: "6"
 
     400:
       question: "How many knuts to a sickle, and how many sickles to a galleon?"
       answer: "29 knuts to a sickle; 17 sickles to a galleon"
-      double: true
 
     500:
-      question:
-      answer:
+      question: "When is Harry's birthday?"
+      answer: "31st July"
 
     600:
-      question:
-      answer:
+      question: "What is Dumbledore's full name?"
+      answer: "Albus Wulfric Percival Brian Dumbledore"
